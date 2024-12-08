@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class SimpleShotgun : MonoBehaviour
 {
-    public Transform barrelEnd;  // A fegyver csõ vége (ahonnan a lövés indul)
-    public float range = 50f;    // Lövés távolsága
-    public int damage = 10;      // Sebzés
-    public AudioClip shootSound; // Hang
+    public Transform barrelEnd;  
+    public float range = 50f;    
+    public int damage = 10;      
+    public AudioClip shootSound; 
     private AudioSource audioSource;
-    public Camera playerCamera;  // A játékos kamerája
+    public Camera playerCamera;  
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class SimpleShotgun : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))  // Ha lenyomják a tûz gombot (pl. bal egér gomb)
+        if (Input.GetButtonDown("Fire1"))  
         {
             Fire();
         }
@@ -24,22 +24,22 @@ public class SimpleShotgun : MonoBehaviour
 
     void Fire()
     {
-        // Hang lejátszása
+        
         if (shootSound != null)
         {
             audioSource.PlayOneShot(shootSound);
         }
 
-        // A lövés iránya: a kamera elõre nézõ iránya (forward) figyelembe véve, hogy a kamera merre néz
-        Vector3 shootDirection = playerCamera.transform.forward;  // Teljesen a kamera elõre nézõ irány
+        
+        Vector3 shootDirection = playerCamera.transform.forward;  
 
-        // Raycast használata a lövés irányában
+        
         RaycastHit hit;
         if (Physics.Raycast(barrelEnd.position, shootDirection, out hit, range))
         {
-            Debug.Log("Hit: " + hit.collider.name); // Találat logolása
+            Debug.Log("Hit: " + hit.collider.name); 
 
-            // Ha az objektumnak van Health komponense
+            
             Health targetHealth = hit.collider.GetComponent<Health>();
             if (targetHealth != null)
             {
@@ -51,7 +51,7 @@ public class SimpleShotgun : MonoBehaviour
             Debug.Log("Missed!");
         }
 
-        // Debug célokra: megjeleníthetjük a lövés irányát a Scene nézetben
+        
         Debug.DrawRay(barrelEnd.position, shootDirection * range, Color.red, 1f);
     }
 }
