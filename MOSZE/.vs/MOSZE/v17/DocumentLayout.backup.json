@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\moveandcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\coincanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\coincounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\moveandcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveandcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CoinCanvas.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCanvas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCanvas.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCanvas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinCanvas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:12:23.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoinCounter.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCounter.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:06:56.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MoveAndCamera.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MoveAndCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveAndCamera.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MoveAndCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoveAndCamera.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowFAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:31:42.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:31:42.865Z"
             }
           ]
         }
