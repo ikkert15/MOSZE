@@ -1,9 +1,9 @@
 using UnityEngine;
-using TMPro; // TextMeshPro namespace
+using TMPro; 
 
 public class CoinCounterUI : MonoBehaviour
 {
-    public TMP_Text coinText; // TextMeshPro támogatás
+    public TMP_Text coinText; 
 
     void Update()
     {
