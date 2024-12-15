@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class SimpleShotgun : MonoBehaviour
 {
-    public Transform barrelEnd;   // A fegyver csõ vége (ahonnan a lövés indul)
-    public GameObject bulletPrefab; // A Golyó prefab (ezt húzd be az Inspectorban)
-    public float bulletSpeed = 20f; // Golyó sebessége
-    public float range = 50f;     // Lövés távolsága (csak Raycasthoz használjuk)
-    public int damage = 10;       // Sebzés
-    public AudioClip shootSound;  // Hang
+    public Transform barrelEnd;   
+    public GameObject bulletPrefab; 
+    public float bulletSpeed = 20f; 
+    public float range = 50f;     
+    public int damage = 10;       
+    public AudioClip shootSound;  
     private AudioSource audioSource;
-    public Camera playerCamera;   // A játékos kamerája
+    public Camera playerCamera;   
 
     void Start()
     {
@@ -18,7 +18,7 @@ public class SimpleShotgun : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))  // Ha lenyomják a tûz gombot (pl. bal egér gomb)
+        if (Input.GetButtonDown("Fire1"))  
         {
             Fire();
         }
@@ -26,23 +26,23 @@ public class SimpleShotgun : MonoBehaviour
 
     void Fire()
     {
-        // Hang lejátszása
+        
         if (shootSound != null)
         {
             audioSource.PlayOneShot(shootSound);
         }
 
-        // Golyó kilövése
+        
         ShootBullet();
 
-        // Raycast alapú találat ellenõrzése
-        Vector3 shootDirection = playerCamera.transform.forward;  // Kamera elõre nézõ iránya
+        
+        Vector3 shootDirection = playerCamera.transform.forward;  
         RaycastHit hit;
         if (Physics.Raycast(barrelEnd.position, shootDirection, out hit, range))
         {
-            Debug.Log("Hit: " + hit.collider.name); // Találat logolása
+            Debug.Log("Hit: " + hit.collider.name); 
 
-            // Ha az objektumnak van Health komponense
+            
             Health targetHealth = hit.collider.GetComponent<Health>();
             if (targetHealth != null)
             {
@@ -54,7 +54,7 @@ public class SimpleShotgun : MonoBehaviour
             Debug.Log("Missed!");
         }
 
-        // Debug célokra: megjeleníthetjük a lövés irányát a Scene nézetben
+        
         Debug.DrawRay(barrelEnd.position, shootDirection * range, Color.red, 1f);
     }
 

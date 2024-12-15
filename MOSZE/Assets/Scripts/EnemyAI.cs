@@ -60,7 +60,7 @@ public class EnemyFollow : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(gameOverSceneName);
+            SceneManager.LoadScene(8);
         }
     }
 }

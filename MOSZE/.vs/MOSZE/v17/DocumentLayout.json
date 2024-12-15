@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\simpleshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simpleshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|c:\\users\\dell\\desktop\\unity game\\mosze\\mosze\\mosze\\assets\\scripts\\backmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\coincounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\coincanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\moveandcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveandcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B7BA3E-828C-6C30-6BBE-C0056002623F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,76 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameOver.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\GameOver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\GameOver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameOver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Title": "Exit.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exit.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\Exit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:57:58.452Z",
+              "WhenOpened": "2024-12-15T21:33:24.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BackMenu.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\BackMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackMenu.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\BackMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:18:13.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Title": "MenuScript.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScript.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T10:43:01.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SimpleShotgun.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\SimpleShotgun.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SimpleShotgun.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\SimpleShotgun.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SimpleShotgun.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowE4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T10:33:12.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CoinCanvas.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCanvas.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCanvas.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCanvas.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CoinCanvas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:12:23.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CoinCounter.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCounter.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\CoinCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CoinCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:06:56.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MoveAndCamera.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MoveAndCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveAndCamera.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Unity Game\\MOSZE\\MOSZE\\MOSZE\\Assets\\Scripts\\MoveAndCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MoveAndCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:31:42.865Z"
+              "WhenOpened": "2024-12-15T21:06:35.805Z"
             }
           ]
         }
