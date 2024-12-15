@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class SimpleShotgun : MonoBehaviour
 {
-    public Transform barrelEnd;  // A fegyver csõ vége (ahonnan a lövés indul)
-    public float range = 50f;    // Lövés távolsága
-    public int damage = 10;      // Sebzés
-    public AudioClip shootSound; // Hang
+    public Transform barrelEnd;   // A fegyver csõ vége (ahonnan a lövés indul)
+    public GameObject bulletPrefab; // A Golyó prefab (ezt húzd be az Inspectorban)
+    public float bulletSpeed = 20f; // Golyó sebessége
+    public float range = 50f;     // Lövés távolsága (csak Raycasthoz használjuk)
+    public int damage = 10;       // Sebzés
+    public AudioClip shootSound;  // Hang
     private AudioSource audioSource;
-    public Camera playerCamera;  // A játékos kamerája
+    public Camera playerCamera;   // A játékos kamerája
 
     void Start()
     {
@@ -30,10 +32,11 @@ public class SimpleShotgun : MonoBehaviour
             audioSource.PlayOneShot(shootSound);
         }
 
-        // A lövés iránya: a kamera elõre nézõ iránya (forward) figyelembe véve, hogy a kamera merre néz
-        Vector3 shootDirection = playerCamera.transform.forward;  // Teljesen a kamera elõre nézõ irány
+        // Golyó kilövése
+        ShootBullet();
 
-        // Raycast használata a lövés irányában
+        // Raycast alapú találat ellenõrzése
+        Vector3 shootDirection = playerCamera.transform.forward;  // Kamera elõre nézõ iránya
         RaycastHit hit;
         if (Physics.Raycast(barrelEnd.position, shootDirection, out hit, range))
         {
@@ -53,5 +56,31 @@ public class SimpleShotgun : MonoBehaviour
 
         // Debug célokra: megjeleníthetjük a lövés irányát a Scene nézetben
         Debug.DrawRay(barrelEnd.position, shootDirection * range, Color.red, 1f);
+    }
+
+    void ShootBullet()
+    {
+        if (bulletPrefab != null)
+        {
+            
+            GameObject bullet = Instantiate(bulletPrefab, barrelEnd.position, barrelEnd.rotation);
+
+            
+            Vector3 shootDirection = playerCamera.transform.forward;  
+
+            
+            Rigidbody rb = bullet.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                
+                rb.useGravity = false;
+
+
+                rb.velocity = shootDirection * bulletSpeed;
+            }
+
+            
+            Destroy(bullet, 3f); 
+        }
     }
 }
