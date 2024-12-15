@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5090c1d92c3e3034a85460b495fcf820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 217.4
+      value: 214.2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5090c1d92c3e3034a85460b495fcf820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2784,6 +2784,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1796144890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796144883}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d06dd6edbe540489a83c42e0059c64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2125578883}
 --- !u!1 &1841750493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2997,6 +3010,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3297408093043926805, guid: 0ae3933ba28e6fe4c921e702d68f9d74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1796144889}
+    - targetCorrespondingSourceObject: {fileID: 3297408093043926805, guid: 0ae3933ba28e6fe4c921e702d68f9d74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1796144890}
     - targetCorrespondingSourceObject: {fileID: 4427892803668537814, guid: 0ae3933ba28e6fe4c921e702d68f9d74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2125578886}
