@@ -28,7 +28,7 @@ public class EnemyFollow : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("Player object not found in the scene!");
+                Debug.LogWarning("nincs player a pályán");  //debug iba esetén
                 return;
             }
         }
@@ -60,7 +60,8 @@ public class EnemyFollow : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(8);
+            Coin.ResetCoinCount(); //coi nullázás halál esetén
+            SceneManager.LoadScene(8); //gameover scene betöltés
         }
     }
 }

@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
-    public Camera playerCamera;
-    public float walkSpeed = 6f;
+    public Camera playerCamera; //kamera követése
+    public float walkSpeed = 6f; //séta
     public float runSpeed = 12f;
     public float jumpPower = 7f;
     public float gravity = 10f;
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
     }
 
-    void Update()
+    void Update()  //mozgás
     {
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
